@@ -1,0 +1,25 @@
+{
+  "name": "odoo-dev",
+  "version": "1.0.0",
+  "description": "## Install",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postprepare": "bin/install.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idpact/odoo-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idpact/odoo-dev/issues"
+  },
+  "homepage": "https://github.com/idpact/odoo-dev#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0",
+    "yargs": "^17.0.1"
+  }
+}
